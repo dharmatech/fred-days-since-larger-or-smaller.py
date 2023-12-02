@@ -1,0 +1,34 @@
+import fred_days_since_larger_or_smaller
+
+series_names = [
+    'TMBACBW027SBOG',
+    'TNMACBW027SBOG',
+    'OMBACBW027SBOG',
+    'ONMACBW027SBOG',
+    'TOTCI',
+    'RHEACBW027SBOG',
+    'CRLACBW027SBOG',
+    'CLDACBW027SBOG',
+    'SBFACBW027SBOG',
+    'SMPACBW027SBOG',
+    'SNFACBW027SBOG',
+    'CCLACBW027SBOG',
+    'CARACBW027SBOG',
+    'AOCACBW027SBOG',
+    'LNFACBW027SBOG',
+    'OLNACBW027SBOG',
+    'ALLACBW027SBOG',
+    'CASACBW027SBOG',
+    'H8B3092NCBA',
+    'LCBACBW027SBOG',
+    'H8B3053NCBA',
+    'LTDACBW027SBOG',
+    'ODSACBW027SBOG',
+    'H8B3094NCBA',
+    'NDFACBW027SBOG',
+    'H8B3095NCBA'
+]
+
+table = fred_days_since_larger_or_smaller.update(series_names)
+
+table
