@@ -1,6 +1,6 @@
 # fred-days-since-larger-or-smaller.py
 
-Python library for finding outlier moves in FRED series data.
+Python library for finding outlier moves in [FRED](https://fred.stlouisfed.org/) series data.
 
 Example output of `fred-days-since-h41.py`:
 
